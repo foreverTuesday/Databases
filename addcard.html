@@ -1,0 +1,136 @@
+<html>
+<head>
+<title></title>
+<style>
+
+h2 {text-align:center; color: #3D5AAE;font-size: 300%;}
+h4 { color:#3D5AAE;}
+body {
+background-color: #E8EBF5;
+}
+
+.image {
+height: 100px;
+width: 350px;
+position: relative;
+margin: auto;
+       top: 0; 
+       left: 0;
+       bottom: 0; 
+       right: 0;
+       background-image: url("http://i.imgur.com/AqJILWM.png");
+       background-repeat: no-repeat;
+       background-position: bottom center;
+       background-size: 80%;
+       }
+       
+
+.input, .input2 {
+height: 100px;
+width: 200px;
+text-align:center;
+border-style: groove;
+border-width: 5px;
+border-color: #7089D1;
+
+}
+
+.input {
+position: relative;
+margin: auto;
+       top: 30px; 
+       left:-120;
+       bottom: ; 
+       right: 0;
+
+}
+
+.input2 {
+height: 100px;
+width: 200px;
+position: relative;
+margin-bottom: auto;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+       top: 30px; 
+       left: -120;
+       bottom: 0; 
+       right: 0;
+
+}
+       input[type=submit] {
+       color: white;
+       white-space: normal;
+       font-family: "Times New Roman";
+       font-size: 150%;
+       height: 100px;
+width: 100px;
+margin: 50;
+    padding:5px 15px; 
+    background:#7089D1; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    border-style: groove;
+border-width: 5px;
+border-color: #7089D1;
+}
+
+.button {
+
+height: 200px;
+width: 200px;
+position: relative;
+float: right;
+margin: auto;
+  top: -190; 
+       left: -400;
+       bottom: 0; 
+       right: 0;
+       
+       }
+       
+
+</style>
+</head>
+<body>
+
+<div class="image">
+<h2>Add a land card</h2>
+
+
+
+
+</div>
+
+
+<form id="formName" name="formName" 
+method = 'post' 
+action ="addcard.php">
+
+
+<div class="input">
+<h4>Card Name</h4>
+
+<input type="text" name="Name" id="Name" value="Card Name" size="30" /><br />
+</div>
+
+<div class="input2">
+<h4>Card Number</h4>
+
+<input type="text" name="ColNum" id="ColNum" value="Card Number" size="30" /><br />
+</div>
+
+
+
+<div class = "button">
+<input type="submit" name="sButton" value="Add Card" />
+</div>
+
+
+</form>
+
+</body>
+</html>

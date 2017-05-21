@@ -1,0 +1,81 @@
+<html>
+<head>
+<title></title>
+<style>
+h2 {text-align:center; color: #3D5AAE;font-size:200%}
+h4 { color:#001E76;}
+body {
+background-color: #E8EBF5;
+}
+.box {
+background-color: #7089D1;
+height: 100px;
+width: 200px;
+text-align:center;
+border-style: double;
+border-width: 5px;
+border-color: #001E76;
+position: relative;
+margin: auto;
+       top: 30px; 
+       left:0;
+       bottom: ; 
+       right: 0;
+       border-radius: 20px; 
+
+}
+
+   input[type=submit] {
+       color: #7089D1;
+       font-family: "Times New Roman";
+       font-size: 110%;
+       height: 60px;
+width: 110px;
+margin: 50;
+    padding:5px 15px; 
+    background:#001E76; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    border-style: groove;
+border-width: 5px;
+border-color: #001E76;
+}
+
+.button {
+
+height: 200px;
+width: 200px;
+position: relative;
+margin: auto;
+  top:0 ; 
+       left: 0;
+       bottom: 0; 
+       right: 0;
+       
+       }
+</style>
+</head>
+<body>
+
+<h2>Search for a card by Name</h2>
+
+<form id="formName" name="formName" 
+method = 'post' 
+action ="cardfromname.php">
+<div class = "box">
+<h4>Card Name</h4>
+
+<input type="text" name="name" id="name" value="Card Name" size="30" /><br />
+</div>
+
+
+
+<div class = "button">
+<input type="submit" name="sButton" value="Find Cards" />
+</div>
+</form>
+
+</body>
+</html>
